@@ -1,0 +1,20 @@
+:root { --bg: #0b0620; --panel: #160c33; --text: #ece8ff; --muted: #b6acd9; --pink: #ff2e97; --cyan: #28ecff; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif; }
+header { background: linear-gradient(180deg, #2a0845, #0b0620); padding: 28px 16px; border-bottom: 1px solid #2c1d5c; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+.brand { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--text); }
+.brand img { width: 56px; height: 56px; border-radius: 50%; border: 2px solid var(--cyan); }
+.brand b { font-size: 22px; letter-spacing: .5px; }
+nav { margin-top: 14px; display: flex; gap: 18px; flex-wrap: wrap; }
+nav a, a { color: var(--cyan); }
+main { padding: 32px 0 48px; }
+h1 { font-size: 30px; line-height: 1.25; margin: 0 0 6px; }
+h2 { font-size: 21px; margin: 32px 0 8px; color: var(--pink); }
+.muted { color: var(--muted); }
+.card { background: var(--panel); border: 1px solid #2c1d5c; border-radius: 12px; padding: 18px 20px; margin: 18px 0; }
+.badge { display: inline-block; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--pink); color: var(--text); font-weight: 600; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 15px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #2c1d5c; vertical-align: top; }
+footer { border-top: 1px solid #2c1d5c; padding: 22px 0 40px; font-size: 14px; color: var(--muted); }
+code { background: #22164a; padding: 1px 6px; border-radius: 4px; }
